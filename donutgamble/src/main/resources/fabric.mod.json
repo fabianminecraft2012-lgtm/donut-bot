@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "donutgamble",
+  "version": "${version}",
+  "name": "Donut Gamble Bot",
+  "description": "Spieler zahlen dir per /pay, mit einer festen Gewinnchance zahlst du automatisch aus.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.donutgamble.DonutGambleMod"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
